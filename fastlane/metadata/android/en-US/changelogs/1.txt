@@ -1,0 +1,8 @@
+- Initial release of Drafto v1.0.
+- Notes: Markdown editor with live preview and .md export.
+- To-dos: Checklists with subtasks, due dates, and progress.
+- Bookmarks: Link saving with auto titles, icons, and clean cards.
+- Collections: Folders for notes, tasks, and bookmarks.
+- Live Notes: Status bar quick notes with countdown timers.
+- Theming: Dark, Light, AMOLED, and Kraft themes.
+- 100% private and offline with zero data collection.

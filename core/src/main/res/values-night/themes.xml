@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base de arranque (Modo Oscuro) -->
+    <style name="Theme.Drafto" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/drafto_background_dark</item>
+        <item name="android:windowSplashScreenBackground">@color/drafto_background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Temas específicos según modo visual de Drafto -->
+    <style name="Theme.Drafto.Dark" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/drafto_background_dark</item>
+        <item name="android:windowSplashScreenBackground">@color/drafto_background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.Drafto.Amoled" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/drafto_background_amoled</item>
+        <item name="android:windowSplashScreenBackground">@color/drafto_background_amoled</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.Drafto.Light" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/drafto_background_light</item>
+        <item name="android:windowSplashScreenBackground">@color/drafto_background_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.Drafto.Kraft" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/drafto_background_kraft</item>
+        <item name="android:windowSplashScreenBackground">@color/drafto_background_kraft</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

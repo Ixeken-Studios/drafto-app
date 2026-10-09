@@ -1,0 +1,41 @@
+Drafto is a clean and simple Android app to take notes, organize to-dos, and save web bookmarks all in one place. Built with Kotlin and Jetpack Compose, it is designed to be fast, minimal, and completely offline with 100% privacy.
+
+Key Features:
+
+📝 Markdown Notes
+• Distraction-free writing with full Markdown formatting (headings, lists, bold, italics, code blocks, and quotes).
+• Instant preview mode to see how your note looks while you write.
+• Add image attachments and adjust photo crops easily.
+• Export notes directly to standard .md files.
+
+✅ To-dos & Checklists
+• Create tasks and checklists with nested subtasks.
+• Track your progress with clear visual completion counters.
+• Set due dates and easily filter between pending and finished tasks.
+• Import and export checklists using plain Markdown (todos.md).
+
+🔖 Web Bookmarks
+• Save links quickly from your clipboard or via the Android share menu.
+• Automatically fetches website titles, descriptions, and icons for clean preview cards.
+• Filter bookmarks by platform (Articles, YouTube, GitHub, X, Instagram).
+• Import and export your bookmarks using standard HTML (compatible with Chrome, Firefox, Safari) or JSON.
+
+📁 Collections & Folders
+• Keep your notes, to-dos, and bookmarks organized together in custom folders.
+• Personalize each collection with its own color and icon.
+• Filter content quickly to find what you need without clutter.
+
+⏳ Live Notes
+• Pin a quick temporary note directly into your Android status bar.
+• See a countdown timer so you don't forget urgent reminders.
+• Extend time, edit, or mark as done straight from your notifications.
+
+🎨 Clean Theming
+• Choose between 4 themes: Dark, Light, AMOLED black, and warm Kraft paper.
+• Customize your accent color with multiple color options.
+• Adjust text size and reduce animations for smooth performance on any phone.
+
+🔒 100% Private & Offline
+• Zero data collection: No accounts, no cloud sync, no tracking, and no ads. Everything stays strictly on your phone.
+• Lock the app with fingerprint, face unlock, or your phone's PIN.
+• Create full .zip backups of all your notes, tasks, bookmarks, and media whenever you want.

@@ -1,0 +1,658 @@
+<resources>
+    <!-- ========================================================================================= -->
+    <!-- MASTER STRING RESOURCES (ESPAÑOL MÉXICO) - DRAFTO NATIVE ANDROID                         -->
+    <!-- ========================================================================================= -->
+    <!-- Este archivo centraliza todas las cadenas del sistema organizadas en 24 secciones.       -->
+    <!-- Mantiene paridad 1:1 estricta con values/strings.xml.                                     -->
+    <!-- ========================================================================================= -->
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 01: APPLICATION IDENTITY & METADATA -->
+    <!-- ========================================================================================= -->
+    <string name="app_name">Drafto</string>
+    <string name="about_version">v1.0.0</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 02: MAIN NAVIGATION & PRIMARY TABS -->
+    <!-- ========================================================================================= -->
+    <string name="tab_pins">Fijados</string>
+    <string name="tab_notebook">Cuaderno</string>
+    <string name="tab_notes">Cuaderno</string>
+    <string name="tab_tasks">Tareas</string>
+    <string name="tab_saved">Marcadores</string>
+    <string name="tab_bookmarks">Marcadores</string>
+    <string name="section_notes">Notas</string>
+    <string name="section_todo">Pendientes</string>
+    <string name="title_settings">Ajustes</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 03: GLOBAL ACTIONS & COMMON CONTROLS -->
+    <!-- ========================================================================================= -->
+    <string name="action_back">Atrás</string>
+    <string name="action_apply">Aplicar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_close_search">Cerrar búsqueda</string>
+    <string name="action_toggle_view">Cambiar vista</string>
+    <string name="view_mode_list">Vista de lista</string>
+    <string name="view_mode_grid">Vista de cuadrícula</string>
+    <string name="action_options_menu">Opciones</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_ok">Aceptar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_reply">Responder</string>
+    <string name="action_pin">Fijar</string>
+    <string name="action_unpin">Desfijar</string>
+    <string name="action_send">Enviar</string>
+    <string name="action_pick_image">Seleccionar imagen</string>
+    <string name="action_scroll_to_bottom">Ir al final</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_save_note">Guardar nota</string>
+    <string name="action_export">Exportar</string>
+    <string name="action_save_changes">Guardar cambios</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 04: FLOATING ACTION MENU & QUICK CREATE -->
+    <!-- ========================================================================================= -->
+    <string name="action_add">Agregar</string>
+    <string name="action_close_add">Cerrar menú</string>
+    <string name="action_new_note">Nueva nota</string>
+    <string name="action_import_note">Importar nota</string>
+    <string name="action_new_todo">Nuevo pendiente</string>
+    <string name="action_new_task">Nuevo pendiente</string>
+    <string name="action_new_saved">Nuevo marcador</string>
+    <string name="action_import">Importar</string>
+    <string name="action_notification_note">Nota en vivo</string>
+    <string name="title_import_content">Importar contenido</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 05: NOTE EDITOR & MARKDOWN TOOLBAR -->
+    <!-- ========================================================================================= -->
+    <string name="title_new_note">Nueva nota</string>
+    <string name="title_edit_note">Editar nota</string>
+    <string name="title_loading_note">Cargando nota…</string>
+    <string name="title_persistent_note">Nota en vivo</string>
+    <string name="title_adjust_photo">Ajustar foto</string>
+    <string name="title_adjust_wallpaper">Ajustar fondo</string>
+    <string name="hint_crop_drag">Arrastra o pellizca para recortar</string>
+    <string name="action_toggle_format_bar">Herramientas de formato</string>
+    <string name="format_bold">Negrita</string>
+    <string name="format_italic">Cursiva</string>
+    <string name="format_strikethrough">Tachado</string>
+    <string name="format_inline_code">Código en línea</string>
+    <string name="format_code_block">Bloque de código</string>
+    <string name="format_bullet_list">Lista con viñetas</string>
+    <string name="format_quote">Cita</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 06: SEARCH & INPUT PLACEHOLDERS -->
+    <!-- ========================================================================================= -->
+    <string name="placeholder_search_notes">Buscar notas…</string>
+    <string name="placeholder_search_notebook">Buscar en cuaderno…</string>
+    <string name="placeholder_search_pins">Buscar fijados…</string>
+    <string name="placeholder_search_settings">Buscar en ajustes…</string>
+    <string name="placeholder_note_title">Título</string>
+    <string name="placeholder_note_content">Nota en Markdown…</string>
+    <string name="placeholder_write_something">Escribe algo…</string>
+    <string name="placeholder_search_pinboard">Buscar en fijados…</string>
+    <string name="placeholder_coming_soon">Próximamente</string>
+    <string name="placeholder_tasks_description">Organiza y gestiona tus tareas diarias.</string>
+    <string name="placeholder_saved_description">Acceso rápido a notas y marcadores guardados.</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 07: EMPTY STATES, BADGES & PINBOARD FILTERS -->
+    <!-- ========================================================================================= -->
+    <string name="empty_notes_title">Aún no hay notas</string>
+    <string name="empty_notes_description">Toca (+) para crear tu primera nota.</string>
+    <string name="empty_pins_title">Tu tablero de fijados está vacío</string>
+    <string name="empty_pins_description">Fija notas, pendientes o marcadores para tenerlos a la mano aquí.</string>
+    <string name="empty_search_title">Sin resultados</string>
+    <string name="empty_search_description">Prueba buscando con otras palabras clave.</string>
+    <string name="empty_notes">No hay notas creadas. Toca (+) para agregar una.</string>
+    <string name="empty_pins">No hay elementos fijados.</string>
+    <string name="empty_search">No se encontraron resultados</string>
+    <string name="badge_pinned">Fijado</string>
+    <string name="pinboard_filter_all">Todo</string>
+    <string name="pinboard_filter_notes">Notas</string>
+    <string name="pinboard_filter_todos">Pendientes</string>
+    <string name="pinboard_filter_bookmarks">Marcadores</string>
+    <string name="badge_todo">Pendiente: %1$s</string>
+    <string name="badge_bookmark">Marcador: %1$s</string>
+    <string name="badge_note">Nota: %1$s</string>
+    <string name="draft_prefix">Borrador: %1$s</string>
+    <string name="copied_to_clipboard">Copiado al portapapeles</string>
+    <string name="date_today">Hoy</string>
+    <string name="date_yesterday">Ayer</string>
+    <string name="untitled_note">Sin título</string>
+    <string name="badge_recommended">Recomendado</string>
+    <string name="badge_universal">Universal</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 08: NOTEBOOK: NOTES & PREVIEW -->
+    <!-- ========================================================================================= -->
+    <string name="note_title_placeholder">Agrega un título</string>
+    <string name="note_content_placeholder">Escribe tu nota aquí</string>
+    <string name="note_last_modified">Última modificación</string>
+    <string name="action_preview_mode">Vista previa</string>
+    <string name="action_edit_mode">Editar</string>
+    <string name="action_pin_note">Fijar nota</string>
+    <string name="action_unpin_note">Desfijar nota</string>
+    <string name="note_preview_empty">No hay contenido para previsualizar</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 09: NOTEBOOK: TO-DOS & CHECKLISTS -->
+    <!-- ========================================================================================= -->
+    <string name="todo_filter_all">Todo</string>
+    <string name="todo_filter_pending">Pendientes</string>
+    <string name="todo_filter_completed">Completados</string>
+    <string name="action_new_todo_title">Nuevo pendiente</string>
+    <string name="todo_title_placeholder">¿Qué hay que hacer?</string>
+    <string name="todo_notes_placeholder">Agrega detalles o notas...</string>
+    <string name="todo_pin_task">Fijar pendiente</string>
+    <string name="todo_due_date">Fecha límite</string>
+    <string name="todo_due_date_label">Fecha límite</string>
+    <string name="todo_subtasks_done_counter">%1$d de %2$d hechos</string>
+    <string name="todo_empty_title">No hay pendientes aún</string>
+    <string name="todo_all_done">¡Todo terminado!</string>
+    <string name="todo_empty_description">Toca el botón de abajo para agregar tu primer pendiente.</string>
+    <string name="action_edit_todo_title">Editar pendiente</string>
+    <string name="todo_subtasks_header">Subtareas</string>
+    <string name="todo_add_subtask_hint">Agrega una subtarea…</string>
+    <string name="todo_progress_summary">%1$d/%2$d completados</string>
+    <string name="todo_completed_subtasks_section">Completados (%1$d)</string>
+    <string name="todo_more_subtasks">+%1$d más</string>
+    <string name="todo_delete_subtask">Eliminar subtarea</string>
+    <string name="title_new_todo_list">Nueva lista de pendientes</string>
+    <string name="title_edit_todo_list">Editar lista de pendientes</string>
+    <string name="todo_list_name_label">Nombre de la lista</string>
+    <string name="todo_list_name_placeholder">¿qué hay que hacer?</string>
+    <string name="todo_description_label">Descripción</string>
+    <string name="todo_description_placeholder">¿Para qué es esta lista?</string>
+    <string name="todo_action_create_list">Crear lista</string>
+    <string name="todo_action_add_task">+ Agregar tarea</string>
+    <string name="todo_set_due_date">Seleccionar fecha</string>
+    <string name="todo_clear_due_date">Quitar fecha límite</string>
+    <string name="todo_section_show">Mostrar</string>
+    <string name="todo_section_hide">Ocultar</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 10: WEB BOOKMARKS & SAVED LINKS -->
+    <!-- ========================================================================================= -->
+    <string name="bookmark_action_open">Abrir en el navegador</string>
+    <string name="bookmark_action_info">Info del marcador</string>
+    <string name="bookmark_action_edit">Editar marcador</string>
+    <string name="bookmark_action_delete">Eliminar marcador</string>
+    <string name="bookmark_action_pin">Fijar marcador</string>
+    <string name="bookmark_action_unpin">Desfijar marcador</string>
+    <string name="bookmark_menu_create_collection">Nueva colección</string>
+    <string name="bookmark_menu_edit_collection">Editar colección</string>
+    <string name="bookmark_tab_all">Todos</string>
+    <string name="bookmark_tab_folders">Carpetas</string>
+    <string name="bookmark_tab_collections">Colecciones</string>
+    <string name="bookmark_folders_empty_title">Sin colecciones aún</string>
+    <string name="bookmark_folders_empty_desc">Crea tu primera carpeta para organizar tus marcadores en colecciones estéticas.</string>
+    <string name="bookmark_collection_name">Nombre de la colección</string>
+    <string name="bookmark_placeholder_collection_name">Agrega un nombre</string>
+    <string name="bookmark_clipboard_title">¿Guardar este enlace?</string>
+    <string name="bookmark_clipboard_desc">Se encontró un enlace en tu portapapeles</string>
+    <string name="bookmark_clipboard_save">Guardar marcador</string>
+    <string name="bookmark_clipboard_dismiss">Ahora no</string>
+    <string name="toast_bookmark_quick_saved">Guardado en Marcadores</string>
+    <string name="toast_bookmark_already_exists">Ya está en Marcadores</string>
+    <string name="action_quick_save_label">Guardado rápido Drafto</string>
+    <string name="toast_invalid_link">No se encontró un enlace válido</string>
+    <string name="bookmark_empty_title">Aún no hay marcadores</string>
+    <string name="bookmark_empty_desc">Guarda enlaces desde otras aplicaciones o copia URLs para mantenerlos organizados</string>
+    <string name="platform_filter_all">Todos</string>
+    <string name="platform_filter_instagram">Instagram</string>
+    <string name="platform_filter_youtube">YouTube</string>
+    <string name="platform_filter_github">GitHub</string>
+    <string name="platform_filter_twitter_x">X</string>
+    <string name="platform_filter_article">Artículos</string>
+    <string name="bookmark_collections_title">Colecciones</string>
+    <string name="bookmark_action_copy_url">Copiar enlace</string>
+    <string name="bookmark_create_collection_submit">Crear colección</string>
+    <string name="bookmark_collection_color">Color</string>
+    <string name="bookmark_collection_icon">Ícono</string>
+    <string name="bookmark_no_collections">Sin colecciones</string>
+    <string name="bookmark_save_changes">Guardar cambios</string>
+    <string name="bookmark_url_placeholder">Pega o escribe la URL (https://...)</string>
+    <string name="bookmark_url_paste">Pegar</string>
+    <string name="bookmark_save_action">Guardar marcador</string>
+    <string name="bookmark_select_collection">Colección (opcional)</string>
+    <string name="bookmark_title_label">Título personalizado</string>
+    <string name="bookmark_title_placeholder">Escribe un título para recordarlo...</string>
+    <string name="bookmark_url_label">Enlace web</string>
+    <string name="bookmark_no_collection">Ninguna</string>
+    <string name="bookmark_assigned_collections">Colecciones asignadas</string>
+    <string name="bookmark_touch_to_change">Toca para cambiar</string>
+    <string name="bookmark_save_in_drafto">Guardar en Drafto</string>
+    <string name="bookmark_auto_extracted">Autoextraído</string>
+    <string name="bookmark_optional">Opcional</string>
+    <string name="bookmark_saved_status">Marcador</string>
+    <string name="bookmark_content_section_label">Contenido</string>
+    <string name="bookmark_action_open_short">Abrir</string>
+    <string name="bookmark_action_browser_label">Navegador</string>
+    <string name="bookmark_action_share_short">Compartir</string>
+    <string name="bookmark_action_link_label">Enlace</string>
+    <string name="bookmark_action_delete_short">Eliminar</string>
+    <string name="bookmark_action_bookmark_label">Marcador</string>
+    <string name="bookmark_collection_card_label">Colección</string>
+    <string name="bookmark_collection_none_option">Ninguna (Sin asignar)</string>
+    <string name="bookmark_create_new_collection_btn">+ Crear nueva colección</string>
+    <string name="bookmark_action_delete_confirm_prompt">¿Eliminar este marcador permanentemente?</string>
+    <string name="bookmark_additional_collections_count">+%1$d</string>
+    <string name="title_new_bookmark">Nuevo marcador</string>
+    <string name="title_edit_bookmark">Editar marcador</string>
+    <string name="bookmark_section_info">Info del marcador</string>
+    <string name="bookmark_placeholder_title">Agrega un título</string>
+    <string name="bookmark_placeholder_description">Descripción</string>
+    <string name="bookmark_section_link">Enlace del sitio</string>
+    <string name="bookmark_placeholder_link">Escribe o pega el enlace</string>
+    <string name="bookmark_error_invalid_url">Ingresa una URL válida</string>
+    <string name="bookmark_section_collection">Colección</string>
+    <string name="bookmark_none_label">Ninguna</string>
+    <string name="bookmark_action_delete_bookmark">Eliminar\nmarcador</string>
+    <string name="bookmark_action_edit_bookmark">Editar\nmarcador</string>
+    <string name="bookmark_action_share_bookmark">Compartir\nmarcador</string>
+    <string name="bookmark_action_open_browser">Abrir en\nnavegador</string>
+    <string name="bookmark_action_show_preview">Mostrar vista previa</string>
+    <string name="bookmark_action_hide_preview">Ocultar vista previa</string>
+    <string name="bookmark_preview_card_title">Vista previa en tarjeta</string>
+    <string name="bookmark_preview_card_desc">Mostrar imagen en la tarjeta de la lista</string>
+    <string name="bookmark_preview_visible">Visible</string>
+    <string name="bookmark_preview_hidden">Oculta</string>
+    <plurals name="bookmark_count_plural">
+        <item quantity="one">%1$d marcador</item>
+        <item quantity="other">%1$d marcadores</item>
+    </plurals>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 11: GLOBAL COLLECTIONS & FOLDERS -->
+    <!-- ========================================================================================= -->
+    <string name="collections_title">Colecciones</string>
+    <string name="collections_empty_title">Aún no hay colecciones</string>
+    <string name="collections_empty_desc">Crea una colección para organizar tus notas, pendientes y marcadores.</string>
+    <string name="action_new_collection">Nueva colección</string>
+    <string name="action_create_collection">Crear colección</string>
+    <string name="action_edit_collection">Editar colección</string>
+    <string name="dialog_delete_collection_confirm_message">¿Seguro que quieres eliminar "%1$s"? Los elementos contenidos no se borrarán, solo quedarán sin asignar.</string>
+    <string name="collection_name_placeholder">Nombre de la colección</string>
+    <string name="collection_color_label">Color</string>
+    <string name="collection_icon_label">Ícono</string>
+    <string name="collection_tab_notes">Notas</string>
+    <string name="collection_tab_todos">Pendientes</string>
+    <string name="collection_tab_bookmarks">Marcadores</string>
+    <string name="collection_empty_items_title">Esta carpeta está vacía</string>
+    <string name="collection_empty_items_desc">Los elementos asignados a esta colección aparecerán aquí.</string>
+    <string name="collection_select_collection">Colección</string>
+    <string name="collection_none">Ninguna</string>
+    <plurals name="collection_item_count_plural">
+        <item quantity="one">%1$d elemento</item>
+        <item quantity="other">%1$d elementos</item>
+    </plurals>
+    <string name="collection_add_item_title">Agregar a colección</string>
+    <string name="collection_add_note_desc">Crear una nueva nota en Markdown</string>
+    <string name="collection_add_todo_desc">Crear un nuevo pendiente</string>
+    <string name="collection_add_bookmark_desc">Guardar un enlace web</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 12: TAB OPTIONS & FILTERS BOTTOM SHEET -->
+    <!-- ========================================================================================= -->
+    <string name="tab_options_title_notebook">Opciones del cuaderno</string>
+    <string name="tab_options_title_bookmarks">Opciones de marcadores</string>
+    <string name="tab_options_title_collections">Opciones de colecciones</string>
+    <string name="tab_options_header_view_mode">Modo de vista</string>
+    <string name="tab_options_header_filter">Filtrar por colección</string>
+    <string name="tab_options_header_sort">Ordenar por</string>
+    <string name="tab_options_filter_all">Todos los elementos</string>
+    <string name="tab_options_filter_without_collection">Sin colección</string>
+    <string name="tab_options_filter_without_collection_desc">Elementos pendientes de categorizar</string>
+    <string name="tab_options_sort_newest">Más recientes primero</string>
+    <string name="tab_options_sort_oldest">Más antiguos primero</string>
+    <string name="tab_options_sort_alphabetical">Nombre A-Z</string>
+    <string name="tab_options_backup">Copia y restauración</string>
+    <string name="tab_options_backup_desc">Exportar o importar archivos de respaldo</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 13: CONFIRMATION & DELETION DIALOGS -->
+    <!-- ========================================================================================= -->
+    <string name="dialog_delete_collection_title">¿Eliminar colección?</string>
+    <string name="dialog_delete_collection_message">Los marcadores de esta colección seguirán a salvo en tu biblioteca. Solo se quitará la categoría.</string>
+    <string name="dialog_delete_bookmark_title">¿Eliminar marcador?</string>
+    <string name="dialog_delete_bookmark_message">Este marcador se eliminará permanentemente.</string>
+    <string name="dialog_delete_selected_bookmarks_title">¿Eliminar marcadores seleccionados?</string>
+    <string name="dialog_delete_selected_bookmarks_message">¿Seguro que quieres eliminar %1$d marcadores seleccionados? Esta acción no se puede deshacer.</string>
+    <string name="dialog_delete_selected_collections_title">¿Eliminar colecciones seleccionadas?</string>
+    <string name="dialog_delete_selected_collections_message">¿Seguro que quieres eliminar %1$d colecciones seleccionadas? Los elementos contenidos no se borrarán, solo quedarán sin asignar.</string>
+    <string name="dialog_delete_note_title">¿Eliminar nota?</string>
+    <string name="dialog_delete_note_message">¿Seguro que quieres eliminar esta nota? Esta acción no se puede deshacer.</string>
+    <string name="dialog_delete_selected_notes_title">¿Eliminar notas seleccionadas?</string>
+    <string name="dialog_delete_selected_notes_message">¿Seguro que quieres eliminar %1$d notas seleccionadas? Esta acción no se puede deshacer.</string>
+    <string name="dialog_delete_todo_title">¿Eliminar pendiente?</string>
+    <string name="dialog_delete_todo_message">¿Seguro que quieres eliminar este pendiente? Esta acción no se puede deshacer.</string>
+    <string name="dialog_delete_selected_todos_title">¿Eliminar pendientes seleccionados?</string>
+    <string name="dialog_delete_selected_todos_message">¿Seguro que quieres eliminar %1$d pendientes seleccionados? Esta acción no se puede deshacer.</string>
+    <string name="action_hold_to_delete_countdown">🗑 %1$d…</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 14: CONTENT BACKUPS & UNIVERSAL EXPORTS -->
+    <!-- ========================================================================================= -->
+    <string name="title_bookmark_backup">Respaldo de marcadores</string>
+    <string name="title_export_bookmarks">Exportar marcadores</string>
+    <string name="title_import_bookmarks">Importar marcadores</string>
+    <string name="export_bookmarks_html">HTML universal (Netscape)</string>
+    <string name="export_bookmarks_html_desc">Compatible con Chrome, Safari, Firefox, Edge, Brave, Raindrop y Pocket.</string>
+    <string name="export_bookmarks_json">JSON completo de Drafto</string>
+    <string name="export_bookmarks_json_desc">Respaldo completo preservando colores personalizados, íconos y metadatos.</string>
+    <string name="export_bookmarks_scope_all">Todos los marcadores (%1$d)</string>
+    <string name="export_bookmarks_scope_collection">Colección actual (%1$s • %2$d)</string>
+    <string name="import_bookmarks">Marcadores (.html, .json)</string>
+    <string name="import_bookmarks_desc">Importa marcadores desde cualquier navegador o respaldo de Drafto.</string>
+    <string name="toast_bookmarks_export_success">Marcadores exportados exitosamente</string>
+    <string name="toast_bookmarks_export_error">Error al exportar marcadores</string>
+    <string name="toast_bookmarks_import_success">Se importaron %1$d marcadores en %2$d colecciones</string>
+    <string name="toast_bookmarks_import_empty">No se encontraron marcadores en el archivo</string>
+    <string name="toast_bookmarks_import_error">Error al leer el archivo de marcadores</string>
+    <string name="progress_exporting_bookmarks">Exportando marcadores…</string>
+    <string name="progress_importing_bookmarks">Importando marcadores…</string>
+    <string name="progress_status_reading_file">Leyendo archivo de marcadores…</string>
+    <string name="progress_status_parsing_bookmarks">Procesando marcadores y colecciones…</string>
+    <string name="progress_status_saving_bookmarks">Guardando marcadores en la base de datos (%1$d/%2$d)…</string>
+    <string name="menu_export_collection">Exportar colección</string>
+    <string name="action_backup_bookmarks">Respaldo y restauración</string>
+    <string name="title_backup_notebook">Respaldo del cuaderno</string>
+    <string name="action_backup_notebook">Respaldo y restauración</string>
+    <string name="export_notebook_zip_title">Exportar todo (Cuaderno .zip)</string>
+    <string name="export_notebook_zip_desc">Guarda todas tus notas y pendientes en un archivo zip universal.</string>
+    <string name="import_notebook_zip_title">Importar todo (Cuaderno .zip)</string>
+    <string name="import_notebook_zip_desc">Restaura todas tus notas y pendientes desde un respaldo zip.</string>
+    <string name="action_export_note_md">Exportar como Markdown (.md)</string>
+    <string name="toast_note_exported">Nota exportada como Markdown</string>
+    <string name="toast_note_export_error">Error al exportar la nota</string>
+    <string name="toast_notebook_exported">Cuaderno exportado exitosamente</string>
+    <string name="toast_notebook_export_error">Error al exportar el cuaderno</string>
+    <string name="toast_notebook_imported">Se importaron %1$d notas y %2$d pendientes</string>
+    <string name="toast_notebook_import_empty">No se encontraron notas ni pendientes en el respaldo</string>
+    <string name="toast_notebook_import_error">Error al leer el respaldo del cuaderno</string>
+    <string name="dialog_exporting_notebook">Exportando notas y pendientes…</string>
+    <string name="dialog_importing_notebook">Importando notas y pendientes…</string>
+    <string name="import_type_notebook">Cuaderno (.zip)</string>
+    <string name="import_type_notebook_desc">Importar notas y pendientes desde un zip de Markdown</string>
+    <string name="import_single_note_title">Importar nota individual (.md)</string>
+    <string name="import_single_note_desc">Agregar una sola nota desde un archivo Markdown externo.</string>
+    <string name="import_single_todos_title">Importar pendientes (.md)</string>
+    <string name="import_single_todos_desc">Agregar tareas desde un archivo de lista Markdown.</string>
+    <string name="toast_note_imported">Nota importada exitosamente</string>
+    <string name="toast_note_duplicate">La nota ya existe en el cuaderno</string>
+    <string name="toast_note_import_error">Error al importar la nota</string>
+    <string name="toast_todos_imported">Se importaron %1$d pendientes (%2$d omitidos)</string>
+    <string name="toast_todos_import_empty">No se encontraron tareas en el archivo Markdown</string>
+    <string name="toast_todos_import_error">Error al importar pendientes</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 15: SYSTEM STORAGE, MASTER BACKUP & FACTORY WIPE -->
+    <!-- ========================================================================================= -->
+    <string name="storage_metrics_section_title">Resumen de almacenamiento</string>
+    <string name="storage_metric_database">Base de datos</string>
+    <string name="storage_metric_media">Archivos multimedia</string>
+    <string name="storage_metric_cache">Caché temporal</string>
+    <string name="storage_action_clear_cache">Limpiar caché</string>
+    <string name="toast_cache_cleared">Caché limpiada exitosamente</string>
+    <string name="master_backup_section_title">Respaldo maestro (.zip)</string>
+    <string name="master_backup_section_desc">Exporta o restaura todo en Drafto: notas, pendientes, marcadores y ajustes.</string>
+    <string name="action_export_master_backup">Exportar respaldo maestro</string>
+    <string name="action_import_master_backup">Importar respaldo maestro</string>
+    <string name="switch_include_media_title">Incluir archivos multimedia</string>
+    <string name="switch_include_media_desc">Respaldar fotos, notas de voz, fondos personalizados y avatares.</string>
+    <string name="dialog_exporting_master_backup">Creando respaldo maestro…</string>
+    <string name="dialog_importing_master_backup">Restaurando respaldo maestro…</string>
+    <string name="toast_master_backup_exported">Respaldo maestro exportado exitosamente</string>
+    <string name="toast_master_backup_export_error">Error al exportar respaldo maestro</string>
+    <string name="toast_master_backup_imported">Respaldo maestro restaurado exitosamente</string>
+    <string name="toast_master_backup_import_error">Error al leer el respaldo maestro</string>
+    <string name="import_type_master_backup">Respaldo maestro Drafto (.zip)</string>
+    <string name="import_type_master_backup_desc">Restaurar todas las notas, pendientes y marcadores</string>
+    <string name="restore_mode_sheet_title">Restauración maestra</string>
+    <string name="restore_mode_sheet_subtitle">Elige cómo quieres aplicar este respaldo.</string>
+    <string name="restore_mode_merge_title">Combinar con datos actuales</string>
+    <string name="restore_mode_merge_desc">Agrega elementos nuevos y omite duplicados sin borrar los datos existentes.</string>
+    <string name="restore_mode_clean_title">Restauración limpia (Reemplazar todo)</string>
+    <string name="restore_mode_clean_desc">Borra todos los datos actuales y restaura una réplica exacta de este respaldo.</string>
+    <string name="danger_zone_section_title">Zona de peligro</string>
+    <string name="danger_zone_section_desc">Acciones irreversibles que afectan todos los datos almacenados.</string>
+    <string name="action_wipe_all_data">Borrar todos los datos</string>
+    <string name="wipe_dialog_title">¿Borrar todos los datos de Drafto?</string>
+    <string name="wipe_dialog_message">Esto eliminará permanentemente todas tus notas, pendientes, archivos adjuntos, marcadores y restablecerá tus preferencias. Esta acción no se puede deshacer.</string>
+    <string name="wipe_dialog_confirm_countdown">Confirmar borrado (%1$ds)</string>
+    <string name="wipe_dialog_confirm_ready">Confirmar borrado</string>
+    <string name="toast_wipe_success">Todos los datos se borraron exitosamente</string>
+    <string name="toast_wipe_error">Error al borrar los datos</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 16: DYNAMIC ISLAND & LIVE NOTIFICATIONS -->
+    <!-- ========================================================================================= -->
+    <string name="dynamic_island_expand">Expandir</string>
+    <string name="dynamic_island_collapse">Colapsar</string>
+    <string name="dynamic_island_quick_menu">Menú rápido</string>
+    <string name="notification_channel_name">Notas en vivo</string>
+    <string name="notification_channel_description">Nota fijada en la barra de estado</string>
+    <string name="character_counter_format">%1$d/%2$d Caracteres</string>
+    <string name="notification_hours_remaining">Quedan %1$d h</string>
+    <string name="notification_less_than_hour">Queda &lt;1 h</string>
+    <string name="notification_expired">Nota expirada</string>
+    <string name="notification_action_complete">Completar</string>
+    <string name="notification_action_extend">+3 h</string>
+    <string name="notification_action_edit">Editar</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 17: UNIVERSAL SHARE TARGET -->
+    <!-- ========================================================================================= -->
+    <string name="share_target_title">Compartir con Drafto</string>
+    <string name="share_target_tab_notes">Nota</string>
+    <string name="share_target_tab_bookmarks">Marcador</string>
+    <string name="share_target_save_note">Guardar nota</string>
+    <string name="share_target_save_bookmark">Guardar marcador</string>
+    <string name="share_target_toast_note_saved">Nota guardada</string>
+    <string name="share_target_toast_bookmark_saved">Marcador guardado</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 18: DOCUMENT ATTACHMENTS & SYSTEM VIEWERS -->
+    <!-- ========================================================================================= -->
+    <string name="doc_type_pdf">Documento PDF</string>
+    <string name="doc_type_word">Documento Word</string>
+    <string name="doc_type_excel">Hoja de cálculo Excel</string>
+    <string name="doc_type_powerpoint">Presentación PowerPoint</string>
+    <string name="doc_type_zip">Archivo ZIP</string>
+    <string name="doc_type_text">Documento de texto</string>
+    <string name="doc_type_apk">Paquete Android (APK)</string>
+    <string name="doc_type_generic">Archivo de documento</string>
+    <string name="action_open_with">Abrir con…</string>
+    <string name="toast_file_not_found">No se encontró el archivo</string>
+    <string name="toast_no_app_to_open_file">No hay ninguna aplicación para abrir este archivo</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 19: SECURITY, APP LOCK & BIOMETRICS -->
+    <!-- ========================================================================================= -->
+    <string name="biometric_prompt_title">Bloqueo de Drafto</string>
+    <string name="biometric_prompt_subtitle">Confirma tu identidad para acceder a Drafto</string>
+    <string name="error_no_secure_lock">No hay un método de bloqueo seguro (PIN/Patrón/Biometría) configurado en el dispositivo.</string>
+    <string name="error_authentication_general">Error de autenticación</string>
+    <string name="error_authentication_failed">Autenticación fallida</string>
+    <string name="lock_screen_title">Drafto está bloqueado</string>
+    <string name="lock_screen_subtitle">Desbloquea con tu huella, rostro o PIN del dispositivo para continuar</string>
+    <string name="lock_screen_action_unlock">Desbloquear</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 20: MAIN SETTINGS SCREEN -->
+    <!-- ========================================================================================= -->
+    <string name="settings_subtitle">Preferencias y datos</string>
+    <plurals name="search_options_found">
+        <item quantity="one">%1$d opción encontrada</item>
+        <item quantity="other">%1$d opciones encontradas</item>
+    </plurals>
+    <string name="settings_section_preferences">Preferencias</string>
+    <string name="settings_item_appearance_title">Apariencia</string>
+    <string name="settings_item_appearance_subtitle">Temas, escala de fuente y efectos de desenfoque</string>
+    <string name="settings_item_language_title">Idioma</string>
+    <string name="settings_item_language_subtitle">Idioma de la aplicación</string>
+    <string name="bs_language_title">Idioma</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español (México)</string>
+    <string name="language_english_subtitle">Inglés</string>
+    <string name="language_spanish_subtitle">Español (México)</string>
+    <string name="settings_item_clipboard_auto_detect_title">Detectar enlaces del portapapeles</string>
+    <string name="settings_item_clipboard_auto_detect_subtitle">Sugerir guardar enlaces web copiados al portapapeles</string>
+    <string name="settings_section_privacy_security">Privacidad y Seguridad</string>
+    <string name="settings_item_lock_app_title">Bloqueo de app</string>
+    <string name="settings_item_lock_app_subtitle">Requerir biometría o PIN del dispositivo</string>
+    <string name="settings_item_lock_app_no_lock_subtitle">Configura un PIN, patrón o biometría en el sistema para activar</string>
+    <string name="settings_item_web_previews_title">Vistas previas web y favicons</string>
+    <string name="settings_item_web_previews_subtitle">Obtener imágenes de portada, títulos e íconos al guardar enlaces</string>
+    <string name="settings_item_permissions_title">Permisos</string>
+    <string name="settings_item_permissions_subtitle">Administrar permisos del sistema Android</string>
+    <string name="settings_item_privacy_info_title">Política de privacidad</string>
+    <string name="settings_section_about">Acerca de</string>
+    <string name="settings_item_drafto_subtitle">Versión, código fuente y actualizaciones</string>
+    <string name="settings_item_data_storage_title">Datos y Almacenamiento</string>
+    <string name="settings_item_data_storage_subtitle">Respaldo maestro, métricas de espacio y borrado general</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 21: APPEARANCE, THEMES & VISUAL STYLING -->
+    <!-- ========================================================================================= -->
+    <string name="appearance_title">Apariencia</string>
+    <string name="appearance_section_theming">Tema</string>
+    <string name="appearance_item_theme_selection_title">Tema de la app</string>
+    <string name="appearance_item_theme_selection_subtitle">Dark, Light, AMOLED o Kraft</string>
+    <string name="appearance_section_navbar">Efecto cristal</string>
+    <string name="appearance_item_navbar_blur_title">Desenfoque global</string>
+    <string name="appearance_item_navbar_blur_subtitle">Efecto de cristal esmerilado en tiempo real en toda la app</string>
+    <string name="appearance_item_reduce_motion_title">Reducir animaciones</string>
+    <string name="appearance_item_reduce_motion_subtitle">Desactiva efectos de movimiento y prioriza el rendimiento en dispositivos modestos</string>
+    <string name="appearance_item_font_size_title">Tamaño de fuente</string>
+    <string name="appearance_item_font_size_subtitle">Ajusta el tamaño del texto en toda la interfaz</string>
+    <string name="appearance_font_size_very_small">Muy pequeña</string>
+    <string name="appearance_font_size_small">Pequeña</string>
+    <string name="appearance_font_size_default">Predeterminada</string>
+    <string name="appearance_font_size_big">Grande</string>
+    <string name="appearance_font_size_very_big">Muy grande</string>
+    <string name="appearance_item_accent_color_title">Color de acento</string>
+    <string name="appearance_item_accent_color_subtitle">Personaliza el color de realce y tintes</string>
+    <string name="accent_color_fresh_sky">Cielo fresco</string>
+    <string name="accent_color_school_bus">Amarillo escolar</string>
+    <string name="accent_color_muted_olive">Oliva suave</string>
+    <string name="accent_color_amethyst">Amatista</string>
+    <string name="accent_color_dark_orange">Naranja oscuro</string>
+    <string name="accent_color_flag_red">Rojo bandera</string>
+    <string name="accent_color_monochrome">Monocromático</string>
+    <string name="accent_color_pure_white">Blanco puro</string>
+    <string name="accent_color_pure_black">Negro puro</string>
+    <string name="bs_theme_dark">Oscuro</string>
+    <string name="bs_theme_light">Claro</string>
+    <string name="bs_theme_amoled">AMOLED</string>
+    <string name="bs_theme_kraft">Kraft</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 22: ABOUT DRAFTO, PRIVACY & PERMISSIONS -->
+    <!-- ========================================================================================= -->
+    <string name="about_title">Drafto</string>
+    <string name="about_section_information">Información</string>
+    <string name="about_item_view_source">Código fuente</string>
+    <string name="about_item_release_notes">Notas de versión</string>
+    <string name="about_item_walkthrough">Recorrido de bienvenida</string>
+    <string name="about_item_walkthrough_subtitle">Repasar funciones y herramientas</string>
+    <string name="about_item_by_ixeken">Por Ixeken Studios</string>
+    <string name="about_item_by_ixeken_subtitle">Hecho en México</string>
+    <string name="about_stand_with_palestine">Este proyecto apoya a Palestina 🇵🇸</string>
+    <string name="bs_privacy_info_telemetry_title">Cero recopilación de datos</string>
+    <string name="bs_privacy_info_telemetry_desc">Drafto no recopila, almacena ni transmite analíticas, rastreo ni datos personales. No hay cuentas de usuario, perfiles ni servidores remotos. Todas tus notas, pendientes, marcadores y ajustes residen exclusivamente en tu dispositivo.</string>
+    <string name="bs_privacy_info_network_title">Conexión a internet para marcadores web</string>
+    <string name="bs_privacy_info_network_desc">Drafto se conecta a internet únicamente cuando guardas o visualizas un marcador, solo para descargar favicons y tarjetas de vista previa OpenGraph (título, descripción y miniatura). Nunca se transmiten datos personales ni identificadores.</string>
+    <string name="bs_privacy_info_backups_title">Custodia del usuario en exportaciones</string>
+    <string name="bs_privacy_info_backups_desc">Al no tener almacenamiento en la nube ni servidores remotos, la seguridad, resguardo y envío de los archivos que exportes (respaldos ZIP maestros, notas Markdown o marcadores HTML) queda totalmente bajo tu cuidado y responsabilidad.</string>
+    <string name="bs_permissions_notifications">Notificaciones</string>
+    <string name="bs_permissions_notifications_desc">Notas en vivo, recordatorios y tareas en segundo plano</string>
+    <string name="bs_permissions_system_settings">Ajustes del sistema</string>
+    <string name="bs_permissions_system_settings_desc">Administra permisos y alertas de la app en los ajustes de Android</string>
+    <string name="bs_permissions_grant">Conceder</string>
+    <string name="bs_permissions_granted">Concedido</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 23: GITHUB UPDATE CHECKER -->
+    <!-- ========================================================================================= -->
+    <string name="about_section_updating">Actualizaciones</string>
+    <string name="about_item_check_updates">Buscar actualizaciones</string>
+    <string name="about_item_check_updates_subtitle">Verificar nuevas versiones en GitHub</string>
+    <string name="about_item_check_on_start">Buscar al iniciar</string>
+    <string name="about_item_check_on_start_subtitle">Verificar actualizaciones cuando se abra Drafto</string>
+    <string name="update_consent_manual_title">¿Buscar actualizaciones?</string>
+    <string name="update_consent_manual_message">Drafto funciona completamente sin conexión. Comprobar actualizaciones realizará una petición de red a GitHub (api.github.com) para verificar si hay una nueva versión disponible.</string>
+    <string name="update_consent_manual_confirm">Conectar</string>
+    <string name="update_consent_startup_title">¿Activar búsqueda al iniciar?</string>
+    <string name="update_consent_startup_message">Drafto funciona sin conexión. Activar este ajuste se conectará a GitHub (api.github.com) cuando inicie la app para comprobar si hay nuevas versiones.</string>
+    <string name="update_consent_startup_confirm">Activar</string>
+    <string name="update_checking_progress">Buscando actualizaciones…</string>
+    <string name="update_available_title">Nueva versión disponible</string>
+    <string name="update_available_message">La versión %1$s está disponible en GitHub. ¿Deseas ver el lanzamiento?</string>
+    <string name="update_available_view">Ver versión</string>
+    <string name="update_available_later">Más tarde</string>
+    <string name="update_up_to_date_title">Estás al día</string>
+    <string name="update_up_to_date_message">Drafto está corriendo la última versión oficial (%1$s).</string>
+    <string name="update_time_traveler_title">¡Máquina del tiempo detectada! ⏳</string>
+    <string name="update_time_traveler_message">Estás utilizando la versión %1$s, que es más reciente que el último lanzamiento público en GitHub (%2$s). ¿Acaso trajiste una máquina del tiempo?</string>
+    <string name="update_error_title">Error de conexión</string>
+    <string name="update_error_message">No se pudo conectar a GitHub. Por favor revisa tu conexión a internet e inténtalo de nuevo.</string>
+    <string name="update_repo_not_found_title">Repositorio no encontrado o privado</string>
+    <string name="update_repo_not_found_message">El repositorio de GitHub no existe, es privado o no tiene versiones publicadas (HTTP 404). No se pudieron comprobar actualizaciones.</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 24: RELEASE NOTES V1.0 -->
+    <!-- ========================================================================================= -->
+    <string name="release_notes_v1_notes_title">Notas en Markdown</string>
+    <string name="release_notes_v1_notes_desc">Escribe y dale formato a tus ideas con soporte completo de Markdown, vistas previas rápidas y exportación individual de archivos.</string>
+    <string name="release_notes_v1_todos_title">Listas de pendientes accionables</string>
+    <string name="release_notes_v1_todos_desc">Mantente al día con subtareas anidadas, casillas de verificación rápida y contadores de progreso en tiempo real.</string>
+    <string name="release_notes_v1_bookmarks_title">Marcadores web</string>
+    <string name="release_notes_v1_bookmarks_desc">Guarda enlaces fácilmente con extracción automática de metadatos, privacidad sin conexión y diseños Bento fluidos.</string>
+    <string name="release_notes_v1_collections_title">Colecciones unificadas</string>
+    <string name="release_notes_v1_collections_desc">Organiza notas, pendientes y enlaces web en carpetas personalizables con colores e íconos.</string>
+    <string name="release_notes_v1_privacy_title">Local y seguro</string>
+    <string name="release_notes_v1_privacy_desc">Todos tus datos permanecen estrictamente en tu dispositivo, protegidos con bloqueo biométrico y respaldos ZIP universales.</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 25: WELCOME WALKTHROUGH BOTTOM SHEET -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - First-launch and on-demand modal walkthrough explaining the five pillars of Drafto. -->
+    <!-- ========================================================================================= -->
+    <string name="walkthrough_title">Bienvenido a Drafto</string>
+    <string name="walkthrough_subtitle">Conoce las herramientas esenciales de tu espacio editorial.</string>
+    <string name="walkthrough_step_collections_title">Colecciones y Espacios</string>
+    <string name="walkthrough_step_collections_desc">Organiza tus proyectos en libretas independientes con diseño Nothing OS de solapa escalonada y filtros de acceso veloz.</string>
+    <string name="walkthrough_step_collections_badge">Carpeta Principal</string>
+    <string name="walkthrough_step_collections_count_demo">14 notas • 6 tareas</string>
+    <string name="walkthrough_step_notes_title">Notas en Markdown</string>
+    <string name="walkthrough_step_notes_desc">Editor limpio sin distracciones con tipografía Fraunces, atajos rápidos de formato y notas fijas (Live Note) en pantalla.</string>
+    <string name="walkthrough_step_notes_badge">Pensamiento editorial</string>
+    <string name="walkthrough_step_notes_quote_demo">Escritura táctil inspirada en prensa impresa.</string>
+    <string name="walkthrough_step_todos_title">Tareas y Pendientes</string>
+    <string name="walkthrough_step_todos_desc">Controla subtareas, estados visuales y barra de progreso interactiva para mantener el enfoque diario.</string>
+    <string name="walkthrough_step_todos_demo_item">Completar lanzamiento 1.0</string>
+    <string name="walkthrough_step_bookmarks_title">Marcadores Web</string>
+    <string name="walkthrough_step_bookmarks_desc">Guarda enlaces de investigación con títulos y favicons locales sin necesidad de conexión activa.</string>
+    <string name="walkthrough_step_bookmarks_demo_title">Material You Design Specs</string>
+    <string name="walkthrough_step_bookmarks_demo_domain">developer.android.com</string>
+    <string name="walkthrough_step_privacy_title">100% Local y Privado</string>
+    <string name="walkthrough_step_privacy_desc">Tus notas nunca salen del teléfono. Cero cuentas requeridas, sin servidores intermedios y sin telemetría oculta.</string>
+    <string name="walkthrough_step_privacy_badge">Base de datos local Room</string>
+    <string name="walkthrough_step_privacy_status">Cifrado y Seguro</string>
+    <string name="walkthrough_action_start">¡Comenzar!</string>
+    <string name="walkthrough_action_skip">Saltar</string>
+    <string name="walkthrough_action_next">Siguiente</string>
+    <string name="walkthrough_action_back">Atrás</string>
+
+</resources>

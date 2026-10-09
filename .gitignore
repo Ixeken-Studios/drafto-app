@@ -1,0 +1,87 @@
+# ==========================================
+# Gradle & Android Build Artifacts
+# ==========================================
+.gradle/
+build/
+**/build/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Kotlin Cache & Build Tools
+.kotlin/
+kotlin-daemon.*
+
+# Native / NDK Compilations
+.externalNativeBuild/
+.cxx/
+**/ndkBuild/
+**/obj/
+**/libs/
+
+# Captures and profiling
+/captures
+*.apk-deploy
+*.profiler
+
+# ==========================================
+# Security, Keys & Sensitive Credentials
+# ==========================================
+# Local environment and configurations
+local.properties
+secrets.properties
+signing.properties
+keystore.properties
+*.env
+*.env.*
+
+# Android Keystores & Signing Keys
+*.jks
+*.keystore
+release.jks
+*.pepk
+*.p12
+*.pem
+*.crt
+*.key
+*.der
+
+# Google / Firebase Services credentials
+google-services.json
+google-services-*.json
+firebase.json
+
+# Developer / Local System Paths
+*.user
+*.user-data
+
+# ==========================================
+# IDE & Tooling Junk
+# ==========================================
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse & VSCode
+.project
+.classpath
+.settings/
+.vscode/
+
+# ==========================================
+# OS & System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp

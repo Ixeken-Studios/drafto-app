@@ -1,0 +1,774 @@
+<resources>
+    <!-- ========================================================================================= -->
+    <!-- MASTER STRING RESOURCES & TRANSLATION GUIDE - DRAFTO NATIVE ANDROID                     -->
+    <!-- ========================================================================================= -->
+    <!-- This file centralizes all system strings organized into 24 semantic sections.           -->
+    <!-- Each section provides translator context, Nothing OS tone guidelines, and details on    -->
+    <!-- interpolated arguments (%1$s, %2$d, etc.).                                              -->
+    <!-- Rule: Never alter key names (name="...").                                               -->
+    <!-- ========================================================================================= -->
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 01: APPLICATION IDENTITY & METADATA -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Official application brand name and public release version. -->
+    <!-- - Displayed on Android launcher, Settings top bar, About screen, and system notifications. -->
+    <!-- - Translator Notes: 'Drafto' is a brand name and must not be translated. The version string 'v1.0.0' must keep the leading 'v'. -->
+    <!-- ========================================================================================= -->
+    <string name="app_name">Drafto</string>
+    <string name="about_version">v1.0.0</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 02: MAIN NAVIGATION & PRIMARY TABS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Labels for the primary tabs in the floating bottom navigation dock (DraftoNavBar) and their top bar headers. -->
+    <!-- - Primary Tabs: Bookmarks, Notes / Notebook, Pinboard (pinned items), and Collections. -->
+    <!-- - Translator Notes: Keep terms extremely concise (single word preferred) to prevent label clipping on compact phone screens. -->
+    <!-- ========================================================================================= -->
+    <string name="tab_pins">Pinboard</string>
+    <string name="tab_notebook">Notebook</string>
+    <string name="tab_notes">Notebook</string>
+    <string name="tab_tasks">Tasks</string>
+    <string name="tab_saved">Bookmarks</string>
+    <string name="tab_bookmarks">Bookmarks</string>
+    <string name="section_notes">Notes</string>
+    <string name="section_todo">To-do</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 03: GLOBAL ACTIONS & COMMON CONTROLS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Universal action verbs and button labels reused across dialogs, top bars, context menus, and bottom sheets. -->
+    <!-- - Translator Notes: Use short, standard software action verbs in imperative or infinitive form (Save, Cancel, Close, Delete, Edit, Share, Copy). -->
+    <!-- ========================================================================================= -->
+    <string name="action_back">Back</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_search">Search</string>
+    <string name="action_close_search">Close search</string>
+    <string name="action_toggle_view">Toggle view</string>
+    <string name="view_mode_list">List view</string>
+    <string name="view_mode_grid">Grid view</string>
+    <string name="action_options_menu">Options</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_ok">OK</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_share">Share</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_reply">Reply</string>
+    <string name="action_pin">Pin</string>
+    <string name="action_unpin">Unpin</string>
+    <string name="action_send">Send</string>
+    <string name="action_pick_image">Select image</string>
+    <string name="action_scroll_to_bottom">Scroll to bottom</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save_note">Save note</string>
+    <string name="action_export">Export</string>
+    <string name="action_save_changes">Save changes</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 04: FLOATING ACTION MENU & QUICK CREATE -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Options presented in the floating capsule action menu when tapping the center (+) dock button. -->
+    <!-- - Allows rapid creation and importing of markdown notes, actionable to-dos, web bookmarks, and status bar Live Notes. -->
+    <!-- - Translator Notes: 'Live Note' is a signature Drafto feature. Maintain consistency across 'New...' and 'Import...' actions. -->
+    <!-- ========================================================================================= -->
+    <string name="action_add">Add</string>
+    <string name="action_close_add">Close menu</string>
+    <string name="action_new_note">New note</string>
+    <string name="action_import_note">Import note</string>
+    <string name="action_new_todo">New to-do</string>
+    <string name="action_new_task">New to-do</string>
+    <string name="action_new_saved">New bookmark</string>
+    <string name="action_import">Import</string>
+    <string name="action_notification_note">Live Note</string>
+    <string name="title_import_content">Import content</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 05: NOTE EDITOR & MARKDOWN TOOLBAR -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Full-screen note composer (EditorScreen), bottom Markdown formatting shortcuts toolbar, and image/wallpaper cropping tools. -->
+    <!-- - Translator Notes: Keep formatting tool names familiar and standard for Markdown writers (Bold, Italic, Strikethrough, Code, Lists, Quotes). -->
+    <!-- ========================================================================================= -->
+    <string name="title_new_note">New note</string>
+    <string name="title_edit_note">Edit note</string>
+    <string name="title_loading_note">Loading note…</string>
+    <string name="title_persistent_note">Live Note</string>
+    <string name="title_adjust_photo">Adjust photo</string>
+    <string name="title_adjust_wallpaper">Adjust wallpaper</string>
+    <string name="hint_crop_drag">Drag or zoom to adjust crop</string>
+    <string name="action_toggle_format_bar">Formatting tools</string>
+    <string name="format_bold">Bold</string>
+    <string name="format_italic">Italic</string>
+    <string name="format_strikethrough">Strikethrough</string>
+    <string name="format_inline_code">Inline code</string>
+    <string name="format_code_block">Code block</string>
+    <string name="format_bullet_list">Bullet list</string>
+    <string name="format_quote">Quote</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 06: SEARCH & INPUT PLACEHOLDERS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Helpful hints and placeholder texts displayed inside search fields and text areas before the user types. -->
+    <!-- - Translator Notes: End search field placeholders with an ellipsis '...'. Maintain an inviting and concise tone. -->
+    <!-- ========================================================================================= -->
+    <string name="placeholder_search_notes">Search notes…</string>
+    <string name="placeholder_search_notebook">Search notebook…</string>
+    <string name="placeholder_search_pins">Search pins…</string>
+    <string name="placeholder_search_settings">Search settings…</string>
+    <string name="placeholder_note_title">Title</string>
+    <string name="placeholder_note_content">Note in Markdown…</string>
+    <string name="placeholder_write_something">Write something…</string>
+    <string name="placeholder_search_pinboard">Search in Pinboard...</string>
+    <string name="placeholder_coming_soon">Coming soon</string>
+    <string name="placeholder_tasks_description">Organize and track your daily to-dos.</string>
+    <string name="placeholder_saved_description">Quick access to saved notes and bookmarks.</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 07: EMPTY STATES, BADGES & PINBOARD FILTERS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Informational views shown when no items exist yet or search finds no results, item type badges, and Pinboard category filter chips. -->
+    <!-- - Variables: -->
+    <!--   - %1$s: Pinned item title or category name shown inside the badge (e.g. "To-do: Buy groceries"). -->
+    <!-- - Translator Notes: Keep empty state descriptions warm and encouraging, prompting the user to tap (+) to create content. -->
+    <!-- ========================================================================================= -->
+    <string name="empty_notes_title">No notes yet</string>
+    <string name="empty_notes_description">Tap (+) to create your first note.</string>
+    <string name="empty_pins_title">Your Pinboard is empty</string>
+    <string name="empty_pins_description">Pin notes, to-dos, or bookmarks for quick access here.</string>
+    <string name="empty_search_title">No results</string>
+    <string name="empty_search_description">Try searching with different keywords.</string>
+    <string name="empty_notes">No notes created. Tap (+) to add one.</string>
+    <string name="empty_pins">No pinned items.</string>
+    <string name="empty_search">No results found</string>
+    <string name="badge_pinned">Pinned</string>
+    <string name="pinboard_filter_all">All</string>
+    <string name="pinboard_filter_notes">Notes</string>
+    <string name="pinboard_filter_todos">To-dos</string>
+    <string name="pinboard_filter_bookmarks">Bookmarks</string>
+    <string name="badge_todo">To-do: %1$s</string>
+    <string name="badge_bookmark">Bookmark: %1$s</string>
+    <string name="badge_note">Note: %1$s</string>
+    <string name="draft_prefix">Draft: %1$s</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="date_today">Today</string>
+    <string name="date_yesterday">Yesterday</string>
+    <string name="untitled_note">Untitled</string>
+    <string name="badge_recommended">Recommended</string>
+    <string name="badge_universal">Universal</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 08: NOTEBOOK: NOTES & PREVIEW -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - The 'Notes' section of the Notebook tab: note cards, Markdown preview mode, edit mode toggle, and modification dates. -->
+    <!-- - Translator Notes: Keep 'Preview' and 'Edit' toggle buttons short and punchy. -->
+    <!-- ========================================================================================= -->
+    <string name="note_title_placeholder">Add a title</string>
+    <string name="note_content_placeholder">Write your note here</string>
+    <string name="note_last_modified">Last modified</string>
+    <string name="action_preview_mode">Preview</string>
+    <string name="action_edit_mode">Edit</string>
+    <string name="action_pin_note">Pin note</string>
+    <string name="action_unpin_note">Unpin note</string>
+    <string name="note_preview_empty">No content to preview</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 09: NOTEBOOK: TO-DOS & CHECKLISTS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - The 'To-do' section of the Notebook tab: actionable tasks, nested subtasks, due dates, progress counters, and completion celebration. -->
+    <!-- - Variables: -->
+    <!--   - %1$d / %2$d: Integers for task and subtask counters (e.g. "3 of 5 done" or "5/10 completed"). -->
+    <!-- - Translator Notes: In 'todo_all_done', express satisfaction and delight. -->
+    <!-- ========================================================================================= -->
+    <string name="todo_filter_all">All</string>
+    <string name="todo_filter_pending">Pending</string>
+    <string name="todo_filter_completed">Completed</string>
+    <string name="action_new_todo_title">New to-do</string>
+    <string name="todo_title_placeholder">What needs to be done?</string>
+    <string name="todo_notes_placeholder">Add details or notes...</string>
+    <string name="todo_pin_task">Pin task</string>
+    <string name="todo_due_date">Due date</string>
+    <string name="todo_due_date_label">Due date</string>
+    <string name="todo_subtasks_done_counter">%1$d of %2$d done</string>
+    <string name="todo_empty_title">No tasks yet</string>
+    <string name="todo_all_done">All tasks completed!</string>
+    <string name="todo_empty_description">Tap the button below to add your first to-do item.</string>
+    <string name="action_edit_todo_title">Edit to-do</string>
+    <string name="todo_subtasks_header">Subtasks</string>
+    <string name="todo_add_subtask_hint">Add a subtask…</string>
+    <string name="todo_progress_summary">%1$d/%2$d completed</string>
+    <string name="todo_completed_subtasks_section">Completed (%1$d)</string>
+    <string name="todo_more_subtasks">+%1$d more</string>
+    <string name="todo_delete_subtask">Delete subtask</string>
+    <string name="title_new_todo_list">New to-do list</string>
+    <string name="title_edit_todo_list">Edit to-do list</string>
+    <string name="todo_list_name_label">List name</string>
+    <string name="todo_list_name_placeholder">what needs to be done?</string>
+    <string name="todo_description_label">Description</string>
+    <string name="todo_description_placeholder">What is this list for?</string>
+    <string name="todo_action_create_list">Create list</string>
+    <string name="todo_action_add_task">+ Add task</string>
+    <string name="todo_set_due_date">Select date</string>
+    <string name="todo_clear_due_date">Remove due date</string>
+    <string name="todo_section_show">Show</string>
+    <string name="todo_section_hide">Hide</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 10: WEB BOOKMARKS & SAVED LINKS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Bookmarks library: saved web URLs, interactive Bento cards, automatic clipboard URL detection, OpenGraph preview cards, and platform filters. -->
+    <!-- - Variables: -->
+    <!--   - %1$d: Count of additional collections assigned to a bookmark ("+%1$d"). -->
+    <!-- - Plurals: -->
+    <!--   - 'bookmark_count_plural': Total bookmark counter (e.g. '1 bookmark', '15 bookmarks'). -->
+    <!-- ========================================================================================= -->
+    <string name="bookmark_action_open">Open in browser</string>
+    <string name="bookmark_action_info">Bookmark info</string>
+    <string name="bookmark_action_edit">Edit bookmark</string>
+    <string name="bookmark_action_delete">Delete bookmark</string>
+    <string name="bookmark_action_pin">Pin bookmark</string>
+    <string name="bookmark_action_unpin">Unpin bookmark</string>
+    <string name="bookmark_menu_create_collection">New collection</string>
+    <string name="bookmark_menu_edit_collection">Edit collection</string>
+    <string name="bookmark_tab_all">All</string>
+    <string name="bookmark_tab_folders">Folders</string>
+    <string name="bookmark_tab_collections">Collections</string>
+    <string name="bookmark_folders_empty_title">No collections yet</string>
+    <string name="bookmark_folders_empty_desc">Create your first folder to organize bookmarks into aesthetic 3D collections.</string>
+    <string name="bookmark_collection_name">Collection name</string>
+    <string name="bookmark_placeholder_collection_name">Add name</string>
+    <string name="bookmark_clipboard_title">Add this link?</string>
+    <string name="bookmark_clipboard_desc">A link was found in your clipboard</string>
+    <string name="bookmark_clipboard_save">Save bookmark</string>
+    <string name="bookmark_clipboard_dismiss">Not now</string>
+    <string name="toast_bookmark_quick_saved">Saved to Bookmarks</string>
+    <string name="toast_bookmark_already_exists">Already in Bookmarks</string>
+    <string name="action_quick_save_label">Drafto Quick Save</string>
+    <string name="toast_invalid_link">No valid link found</string>
+    <string name="bookmark_empty_title">No bookmarks yet</string>
+    <string name="bookmark_empty_desc">Save links from other apps or copy URLs to keep them organized</string>
+    <string name="platform_filter_all">All</string>
+    <string name="platform_filter_instagram">Instagram</string>
+    <string name="platform_filter_youtube">YouTube</string>
+    <string name="platform_filter_github">GitHub</string>
+    <string name="platform_filter_twitter_x">X</string>
+    <string name="platform_filter_article">Articles</string>
+    <string name="bookmark_collections_title">Collections</string>
+    <string name="bookmark_action_copy_url">Copy link</string>
+    <string name="bookmark_create_collection_submit">Create collection</string>
+    <string name="bookmark_collection_color">Color</string>
+    <string name="bookmark_collection_icon">Icon</string>
+    <string name="bookmark_no_collections">No collections</string>
+    <string name="bookmark_save_changes">Save changes</string>
+    <string name="bookmark_url_placeholder">Paste or type URL (https://...)</string>
+    <string name="bookmark_url_paste">Paste</string>
+    <string name="bookmark_save_action">Save bookmark</string>
+    <string name="bookmark_select_collection">Collection (optional)</string>
+    <string name="bookmark_title_label">Custom title</string>
+    <string name="bookmark_title_placeholder">Write a title to remember it...</string>
+    <string name="bookmark_url_label">Web link</string>
+    <string name="bookmark_no_collection">None</string>
+    <string name="bookmark_assigned_collections">Assigned collections</string>
+    <string name="bookmark_touch_to_change">Tap to change</string>
+    <string name="bookmark_save_in_drafto">Save to Drafto</string>
+    <string name="bookmark_auto_extracted">Auto-extracted</string>
+    <string name="bookmark_optional">Optional</string>
+    <string name="bookmark_saved_status">Bookmark</string>
+    <string name="bookmark_content_section_label">Content</string>
+    <string name="bookmark_action_open_short">Open</string>
+    <string name="bookmark_action_browser_label">Browser</string>
+    <string name="bookmark_action_share_short">Share</string>
+    <string name="bookmark_action_link_label">Link</string>
+    <string name="bookmark_action_delete_short">Delete</string>
+    <string name="bookmark_action_bookmark_label">Bookmark</string>
+    <string name="bookmark_collection_card_label">Collection</string>
+    <string name="bookmark_collection_none_option">None (Unassigned)</string>
+    <string name="bookmark_create_new_collection_btn">+ Create new collection</string>
+    <string name="bookmark_action_delete_confirm_prompt">Delete this bookmark permanently?</string>
+    <string name="bookmark_additional_collections_count">+%1$d</string>
+    <string name="title_new_bookmark">New bookmark</string>
+    <string name="title_edit_bookmark">Edit bookmark</string>
+    <string name="bookmark_section_info">Bookmark info</string>
+    <string name="bookmark_placeholder_title">Add title</string>
+    <string name="bookmark_placeholder_description">Description</string>
+    <string name="bookmark_section_link">Website link</string>
+    <string name="bookmark_placeholder_link">Write or paste the link</string>
+    <string name="bookmark_error_invalid_url">Enter a valid URL</string>
+    <string name="bookmark_section_collection">Collection</string>
+    <string name="bookmark_none_label">None</string>
+    <string name="bookmark_action_delete_bookmark">Delete\nbookmark</string>
+    <string name="bookmark_action_edit_bookmark">Edit\nbookmark</string>
+    <string name="bookmark_action_share_bookmark">Share\nbookmark</string>
+    <string name="bookmark_action_open_browser">Open\nbrowser</string>
+    <string name="bookmark_action_show_preview">Show preview</string>
+    <string name="bookmark_action_hide_preview">Hide preview</string>
+    <string name="bookmark_preview_card_title">Card preview</string>
+    <string name="bookmark_preview_card_desc">Show image on the list card</string>
+    <string name="bookmark_preview_visible">Visible</string>
+    <string name="bookmark_preview_hidden">Hidden</string>
+    <plurals name="bookmark_count_plural">
+        <item quantity="one">%1$d bookmark</item>
+        <item quantity="other">%1$d bookmarks</item>
+    </plurals>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 11: GLOBAL COLLECTIONS & FOLDERS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Collections tab: unified folders organizing notes, tasks, and web bookmarks under a custom name, theme color, and icon. -->
+    <!-- - Variables: -->
+    <!--   - %1$s: Collection name in deletion confirmation messages. -->
+    <!-- - Plurals: -->
+    <!--   - 'collection_item_count_plural': Total count of items inside a collection ('1 item', '8 items'). -->
+    <!-- ========================================================================================= -->
+    <string name="collections_title">Collections</string>
+    <string name="collections_empty_title">No collections yet</string>
+    <string name="collections_empty_desc">Create a collection to organize your notes, to-dos, and bookmarks.</string>
+    <string name="action_new_collection">New collection</string>
+    <string name="action_create_collection">Create collection</string>
+    <string name="action_edit_collection">Edit collection</string>
+    <string name="dialog_delete_collection_confirm_message">Are you sure you want to delete "%1$s"? Contained items will not be deleted, they will simply be unlinked.</string>
+    <string name="collection_name_placeholder">Collection name</string>
+    <string name="collection_color_label">Color</string>
+    <string name="collection_icon_label">Icon</string>
+    <string name="collection_tab_notes">Notes</string>
+    <string name="collection_tab_todos">To-dos</string>
+    <string name="collection_tab_bookmarks">Bookmarks</string>
+    <string name="collection_empty_items_title">This folder is empty</string>
+    <string name="collection_empty_items_desc">Items assigned to this collection will appear here.</string>
+    <string name="collection_select_collection">Collection</string>
+    <string name="collection_none">None</string>
+    <plurals name="collection_item_count_plural">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <string name="collection_add_item_title">Add to collection</string>
+    <string name="collection_add_note_desc">Create a new markdown note</string>
+    <string name="collection_add_todo_desc">Create a new actionable task</string>
+    <string name="collection_add_bookmark_desc">Save a web link</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 12: TAB OPTIONS & FILTERS BOTTOM SHEET -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Bottom modal sheet (DraftoTabOptionsBottomSheet) opened from the three-dot header icon to switch view mode, filter by collection, or sort items. -->
+    <!-- - Translator Notes: Keep sorting options and filter names clear and concise. -->
+    <!-- ========================================================================================= -->
+    <string name="tab_options_title_notebook">Notebook options</string>
+    <string name="tab_options_title_bookmarks">Bookmarks options</string>
+    <string name="tab_options_title_collections">Collections options</string>
+    <string name="tab_options_header_view_mode">View mode</string>
+    <string name="tab_options_header_filter">Filter by collection</string>
+    <string name="tab_options_header_sort">Sort by</string>
+    <string name="tab_options_filter_all">All items</string>
+    <string name="tab_options_filter_without_collection">Without collection</string>
+    <string name="tab_options_filter_without_collection_desc">Items pending categorization</string>
+    <string name="tab_options_sort_newest">Newest first</string>
+    <string name="tab_options_sort_oldest">Oldest first</string>
+    <string name="tab_options_sort_alphabetical">Name A-Z</string>
+    <string name="tab_options_backup">Backup and restore</string>
+    <string name="tab_options_backup_desc">Export or import backup files</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 13: CONFIRMATION & DELETION DIALOGS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Warning dialogs before deleting notes, tasks, bookmarks, or collections, for both individual items and bulk selections. -->
+    <!-- - Variables: -->
+    <!--   - %1$d: Number of selected items to be permanently deleted. -->
+    <!--   - %1$d (in countdown): Seconds remaining before the hold-to-confirm button activates. -->
+    <!-- - Translator Notes: Convey high permanence and state clearly that the action cannot be undone. -->
+    <!-- ========================================================================================= -->
+    <string name="dialog_delete_collection_title">Delete collection?</string>
+    <string name="dialog_delete_collection_message">The bookmarks in this collection will remain safe in your library. Only the category will be removed.</string>
+    <string name="dialog_delete_bookmark_title">Delete bookmark?</string>
+    <string name="dialog_delete_bookmark_message">This bookmark will be deleted permanently.</string>
+    <string name="dialog_delete_selected_bookmarks_title">Delete selected bookmarks?</string>
+    <string name="dialog_delete_selected_bookmarks_message">Are you sure you want to delete %1$d selected bookmarks? This action cannot be undone.</string>
+    <string name="dialog_delete_selected_collections_title">Delete selected collections?</string>
+    <string name="dialog_delete_selected_collections_message">Are you sure you want to delete %1$d selected collections? Contained items will not be deleted, they will simply be unlinked.</string>
+    <string name="dialog_delete_note_title">Delete note?</string>
+    <string name="dialog_delete_note_message">Are you sure you want to delete this note? This action cannot be undone.</string>
+    <string name="dialog_delete_selected_notes_title">Delete selected notes?</string>
+    <string name="dialog_delete_selected_notes_message">Are you sure you want to delete %1$d selected notes? This action cannot be undone.</string>
+    <string name="dialog_delete_todo_title">Delete task?</string>
+    <string name="dialog_delete_todo_message">Are you sure you want to delete this task? This action cannot be undone.</string>
+    <string name="dialog_delete_selected_todos_title">Delete selected tasks?</string>
+    <string name="dialog_delete_selected_todos_message">Are you sure you want to delete %1$d selected tasks? This action cannot be undone.</string>
+    <string name="action_hold_to_delete_countdown">🗑 %1$d…</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 14: CONTENT BACKUPS & UNIVERSAL EXPORTS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Data export and import: universal HTML (Netscape) and JSON for bookmarks, individual Markdown (.md) notes, and Notebook ZIP archives. -->
+    <!-- - Variables: -->
+    <!--   - %1$d / %2$d: Counters for imported/exported items and collections. -->
+    <!--   - %1$s: Collection name for scoped export. -->
+    <!-- ========================================================================================= -->
+    <string name="title_bookmark_backup">Bookmarks backup</string>
+    <string name="title_export_bookmarks">Export bookmarks</string>
+    <string name="title_import_bookmarks">Import bookmarks</string>
+    <string name="export_bookmarks_html">Universal HTML (Netscape)</string>
+    <string name="export_bookmarks_html_desc">Compatible with Chrome, Safari, Firefox, Edge, Brave, Raindrop, and Pocket.</string>
+    <string name="export_bookmarks_json">Full Drafto JSON</string>
+    <string name="export_bookmarks_json_desc">Complete backup preserving custom collection colors, icons, and metadata.</string>
+    <string name="export_bookmarks_scope_all">All bookmarks (%1$d)</string>
+    <string name="export_bookmarks_scope_collection">Current collection (%1$s • %2$d)</string>
+    <string name="import_bookmarks">Bookmarks (.html, .json)</string>
+    <string name="import_bookmarks_desc">Import bookmarks from any browser or Drafto backup.</string>
+    <string name="toast_bookmarks_export_success">Bookmarks exported successfully</string>
+    <string name="toast_bookmarks_export_error">Error exporting bookmarks</string>
+    <string name="toast_bookmarks_import_success">Imported %1$d bookmarks in %2$d collections</string>
+    <string name="toast_bookmarks_import_empty">No bookmarks found in file</string>
+    <string name="toast_bookmarks_import_error">Error reading bookmarks file</string>
+    <string name="progress_exporting_bookmarks">Exporting bookmarks…</string>
+    <string name="progress_importing_bookmarks">Importing bookmarks…</string>
+    <string name="progress_status_reading_file">Reading bookmarks file…</string>
+    <string name="progress_status_parsing_bookmarks">Parsing bookmarks and collections…</string>
+    <string name="progress_status_saving_bookmarks">Saving bookmarks to database (%1$d/%2$d)…</string>
+    <string name="menu_export_collection">Export collection</string>
+    <string name="action_backup_bookmarks">Backup &amp; Restore</string>
+    <string name="title_backup_notebook">Notebook backup</string>
+    <string name="action_backup_notebook">Backup &amp; Restore</string>
+    <string name="export_notebook_zip_title">Export all (Notebook .zip)</string>
+    <string name="export_notebook_zip_desc">Save all notes and to-dos in a universal zip archive.</string>
+    <string name="import_notebook_zip_title">Import all (Notebook .zip)</string>
+    <string name="import_notebook_zip_desc">Restore all notes and to-dos from a zip backup.</string>
+    <string name="action_export_note_md">Export as Markdown (.md)</string>
+    <string name="toast_note_exported">Note exported as Markdown</string>
+    <string name="toast_note_export_error">Error exporting note</string>
+    <string name="toast_notebook_exported">Notebook exported successfully</string>
+    <string name="toast_notebook_export_error">Error exporting notebook</string>
+    <string name="toast_notebook_imported">Imported %1$d notes and %2$d to-dos</string>
+    <string name="toast_notebook_import_empty">No notes or to-dos found in backup</string>
+    <string name="toast_notebook_import_error">Error reading notebook backup</string>
+    <string name="dialog_exporting_notebook">Exporting notes and to-dos…</string>
+    <string name="dialog_importing_notebook">Importing notes and to-dos…</string>
+    <string name="import_type_notebook">Notebook (.zip)</string>
+    <string name="import_type_notebook_desc">Import notes and to-dos from Markdown zip</string>
+    <string name="import_single_note_title">Import individual note (.md)</string>
+    <string name="import_single_note_desc">Add a single note from an external Markdown file.</string>
+    <string name="import_single_todos_title">Import to-dos (.md)</string>
+    <string name="import_single_todos_desc">Add tasks from a Markdown checklist file.</string>
+    <string name="toast_note_imported">Note imported successfully</string>
+    <string name="toast_note_duplicate">Note already exists in notebook</string>
+    <string name="toast_note_import_error">Error importing note</string>
+    <string name="toast_todos_imported">Imported %1$d to-dos (%2$d skipped)</string>
+    <string name="toast_todos_import_empty">No tasks found in Markdown file</string>
+    <string name="toast_todos_import_error">Error importing to-dos</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 15: SYSTEM STORAGE, MASTER BACKUP & FACTORY WIPE -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Data & Storage screen: local storage metrics (database, media attachments, cache), universal Master Backup (.zip), dual restore modes, and permanent factory wipe (Danger Zone). -->
+    <!-- - Variables: -->
+    <!--   - %1$ds: Countdown timer in seconds before confirming factory wipe. -->
+    <!-- ========================================================================================= -->
+    <string name="storage_metrics_section_title">Storage Overview</string>
+    <string name="storage_metric_database">Database</string>
+    <string name="storage_metric_media">Media &amp; Files</string>
+    <string name="storage_metric_cache">Temporary Cache</string>
+    <string name="storage_action_clear_cache">Clear cache</string>
+    <string name="toast_cache_cleared">Cache cleared successfully</string>
+    <string name="master_backup_section_title">Master Backup (.zip)</string>
+    <string name="master_backup_section_desc">Export or restore everything in Drafto: notes, to-dos, bookmarks and settings.</string>
+    <string name="action_export_master_backup">Export Master Backup</string>
+    <string name="action_import_master_backup">Import Master Backup</string>
+    <string name="switch_include_media_title">Include media attachments</string>
+    <string name="switch_include_media_desc">Back up photos, voice notes, custom backgrounds and avatars.</string>
+    <string name="dialog_exporting_master_backup">Creating master backup…</string>
+    <string name="dialog_importing_master_backup">Restoring master backup…</string>
+    <string name="toast_master_backup_exported">Master backup exported successfully</string>
+    <string name="toast_master_backup_export_error">Error exporting master backup</string>
+    <string name="toast_master_backup_imported">Master backup restored successfully</string>
+    <string name="toast_master_backup_import_error">Error reading master backup</string>
+    <string name="import_type_master_backup">Drafto Master Backup (.zip)</string>
+    <string name="import_type_master_backup_desc">Restore all notes, to-dos and bookmarks</string>
+    <string name="restore_mode_sheet_title">Master Restore</string>
+    <string name="restore_mode_sheet_subtitle">Choose how you want to apply this backup.</string>
+    <string name="restore_mode_merge_title">Merge with current data</string>
+    <string name="restore_mode_merge_desc">Add new items and skip duplicates without deleting existing data.</string>
+    <string name="restore_mode_clean_title">Clean Restore (Replace all)</string>
+    <string name="restore_mode_clean_desc">Wipe all current data first and restore an exact replica of this backup.</string>
+    <string name="danger_zone_section_title">Danger Zone</string>
+    <string name="danger_zone_section_desc">Irreversible actions that affect all stored data.</string>
+    <string name="action_wipe_all_data">Wipe All Data</string>
+    <string name="wipe_dialog_title">Wipe all data from Drafto?</string>
+    <string name="wipe_dialog_message">This will permanently delete all notes, to-dos, attachments, bookmarks and reset your preferences. This action cannot be undone.</string>
+    <string name="wipe_dialog_confirm_countdown">Confirm Wipe (%1$ds)</string>
+    <string name="wipe_dialog_confirm_ready">Confirm Wipe</string>
+    <string name="toast_wipe_success">All data wiped successfully</string>
+    <string name="toast_wipe_error">Error wiping data</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 16: DYNAMIC ISLAND & LIVE NOTIFICATIONS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Camera cutout Dynamic Island widget and persistent Android status bar notification for temporary quick notes with countdown timer and quick actions. -->
+    <!-- - Variables: -->
+    <!--   - %1$d/%2$d: Character counter (e.g. "42/180 Chars"). -->
+    <!--   - %1$d: Remaining hours before note expiration. -->
+    <!-- ========================================================================================= -->
+    <string name="dynamic_island_expand">Expand</string>
+    <string name="dynamic_island_collapse">Collapse</string>
+    <string name="dynamic_island_quick_menu">Quick menu</string>
+    <string name="notification_channel_name">Live Notes</string>
+    <string name="notification_channel_description">Pinned note in status bar</string>
+    <string name="character_counter_format">%1$d/%2$d Chars</string>
+    <string name="notification_hours_remaining">%1$d h remaining</string>
+    <string name="notification_less_than_hour">&lt;1 h remaining</string>
+    <string name="notification_expired">Expired note</string>
+    <string name="notification_action_complete">Complete</string>
+    <string name="notification_action_extend">+3 h</string>
+    <string name="notification_action_edit">Edit</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 17: UNIVERSAL SHARE TARGET -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Bottom modal sheet presented when external Android apps share text, web links, or attachments to Drafto via the native system share menu. -->
+    <!-- ========================================================================================= -->
+    <string name="share_target_title">Share with Drafto</string>
+    <string name="share_target_tab_notes">Note</string>
+    <string name="share_target_tab_bookmarks">Bookmark</string>
+    <string name="share_target_save_note">Save note</string>
+    <string name="share_target_save_bookmark">Save bookmark</string>
+    <string name="share_target_toast_note_saved">Note saved</string>
+    <string name="share_target_toast_bookmark_saved">Bookmark saved</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 18: DOCUMENT ATTACHMENTS & SYSTEM VIEWERS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Human-readable file format labels for attachments (PDF, Word, Excel, ZIP, APK, etc.) and intent handler toasts for opening files with default system viewers. -->
+    <!-- ========================================================================================= -->
+    <string name="doc_type_pdf">PDF Document</string>
+    <string name="doc_type_word">Word Document</string>
+    <string name="doc_type_excel">Excel Spreadsheet</string>
+    <string name="doc_type_powerpoint">PowerPoint Presentation</string>
+    <string name="doc_type_zip">ZIP Archive</string>
+    <string name="doc_type_text">Text Document</string>
+    <string name="doc_type_apk">Android Package</string>
+    <string name="doc_type_generic">Document File</string>
+    <string name="action_open_with">Open with…</string>
+    <string name="toast_file_not_found">Could not locate file</string>
+    <string name="toast_no_app_to_open_file">No application found to open this file</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 19: SECURITY, APP LOCK & BIOMETRICS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Nothing OS styled lock screen (DraftoLockScreen), Android BiometricPrompt prompts (fingerprint, face unlock, or device PIN/pattern), and device lock warnings. -->
+    <!-- ========================================================================================= -->
+    <string name="biometric_prompt_title">Drafto Lock</string>
+    <string name="biometric_prompt_subtitle">Confirm your identity to access Drafto</string>
+    <string name="error_no_secure_lock">No secure lock method (PIN/Pattern/Biometrics) set up on device.</string>
+    <string name="error_authentication_general">Authentication error</string>
+    <string name="error_authentication_failed">Authentication failed</string>
+    <string name="lock_screen_title">Drafto is locked</string>
+    <string name="lock_screen_subtitle">Unlock with your fingerprint, face, or device PIN to continue</string>
+    <string name="lock_screen_action_unlock">Unlock</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 20: MAIN SETTINGS SCREEN -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Primary Settings screen, semantic card group headers (Appearance, Quick Toggles, Storage, About), and privacy toggles. -->
+    <!-- - Plurales: -->
+    <!--   - 'search_options_found': Results count when filtering settings ('1 option found', '5 options found'). -->
+    <!-- ========================================================================================= -->
+    <string name="settings_subtitle">Preferences &amp; data</string>
+    <plurals name="search_options_found">
+        <item quantity="one">%1$d option found</item>
+        <item quantity="other">%1$d options found</item>
+    </plurals>
+    <string name="settings_section_preferences">Preferences</string>
+    <string name="settings_item_appearance_title">Appearance</string>
+    <string name="settings_item_appearance_subtitle">Themes, font scale &amp; blur effects</string>
+    <string name="settings_item_language_title">Language</string>
+    <string name="settings_item_language_subtitle">Display language for the app</string>
+    <string name="bs_language_title">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español (México)</string>
+    <string name="language_english_subtitle">English</string>
+    <string name="language_spanish_subtitle">Spanish</string>
+    <string name="settings_item_clipboard_auto_detect_title">Detect clipboard links</string>
+    <string name="settings_item_clipboard_auto_detect_subtitle">Suggest saving web links copied to your clipboard</string>
+    <string name="settings_section_privacy_security">Privacy &amp; Security</string>
+    <string name="settings_item_lock_app_title">App lock</string>
+    <string name="settings_item_lock_app_subtitle">Require biometrics or device PIN</string>
+    <string name="settings_item_lock_app_no_lock_subtitle">Set up device PIN, pattern or biometrics to enable</string>
+    <string name="settings_item_web_previews_title">Web previews &amp; favicons</string>
+    <string name="settings_item_web_previews_subtitle">Fetch cover images, page titles &amp; icons when saving links</string>
+    <string name="settings_item_permissions_title">Permissions</string>
+    <string name="settings_item_permissions_subtitle">Manage Android system permissions</string>
+    <string name="settings_item_privacy_info_title">Privacy policy</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_item_drafto_subtitle">Version, source code &amp; updates</string>
+    <string name="settings_item_data_storage_title">Data &amp; Storage</string>
+    <string name="settings_item_data_storage_subtitle">Master backup, storage metrics &amp; factory wipe</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 21: APPEARANCE, THEMES & VISUAL STYLING -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Appearance screen: visual theme modes (Dark, Light, AMOLED, Kraft), Nothing OS accent colors, Haze UltraThin glassmorphism blur, font scale steps (0 to 4), and reduced motion mode. -->
+    <!-- ========================================================================================= -->
+    <string name="appearance_title">Appearance</string>
+    <string name="appearance_section_theming">Theme</string>
+    <string name="appearance_item_theme_selection_title">App theme</string>
+    <string name="appearance_item_theme_selection_subtitle">Dark, Light, AMOLED, or Kraft</string>
+    <string name="appearance_section_navbar">Glassmorphism</string>
+    <string name="appearance_item_navbar_blur_title">Global blur</string>
+    <string name="appearance_item_navbar_blur_subtitle">Real-time frosted glass effect across the app</string>
+    <string name="appearance_item_reduce_motion_title">Reduce animations</string>
+    <string name="appearance_item_reduce_motion_subtitle">Disable motion effects and prioritize performance for low-end devices</string>
+    <string name="appearance_item_font_size_title">Font scale</string>
+    <string name="appearance_item_font_size_subtitle">Scale text size across the UI</string>
+    <string name="appearance_font_size_very_small">Very Small</string>
+    <string name="appearance_font_size_small">Small</string>
+    <string name="appearance_font_size_default">Default</string>
+    <string name="appearance_font_size_big">Large</string>
+    <string name="appearance_font_size_very_big">Extra Large</string>
+    <string name="appearance_item_accent_color_title">Accent color</string>
+    <string name="appearance_item_accent_color_subtitle">Personalize primary highlight and tint</string>
+    <string name="accent_color_fresh_sky">Fresh Sky</string>
+    <string name="accent_color_school_bus">School Bus</string>
+    <string name="accent_color_muted_olive">Muted Olive</string>
+    <string name="accent_color_amethyst">Amethyst</string>
+    <string name="accent_color_dark_orange">Dark Orange</string>
+    <string name="accent_color_flag_red">Flag Red</string>
+    <string name="accent_color_monochrome">Monochrome</string>
+    <string name="accent_color_pure_white">Pure White</string>
+    <string name="accent_color_pure_black">Pure Black</string>
+    <string name="bs_theme_dark">Dark</string>
+    <string name="bs_theme_light">Light</string>
+    <string name="bs_theme_amoled">AMOLED</string>
+    <string name="bs_theme_kraft">Kraft</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 22: ABOUT DRAFTO, PRIVACY & PERMISSIONS -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - About Drafto screen, studio credits, solidarity banner, Nothing OS privacy bottom sheet (zero telemetry, user file custody, favicons-only network), and Android system permissions. -->
+    <!-- ========================================================================================= -->
+    <string name="about_title">Drafto</string>
+    <string name="about_section_information">Info</string>
+    <string name="about_item_view_source">Source code</string>
+    <string name="about_item_release_notes">Release notes</string>
+    <string name="about_item_walkthrough">Welcome walkthrough</string>
+    <string name="about_item_walkthrough_subtitle">Review key features and tools</string>
+    <string name="about_item_by_ixeken">By Ixeken Studios</string>
+    <string name="about_item_by_ixeken_subtitle">Made in Mexico</string>
+    <string name="about_stand_with_palestine">This project stands with Palestine 🇵🇸</string>
+    <string name="bs_privacy_info_telemetry_title">Zero data collection</string>
+    <string name="bs_privacy_info_telemetry_desc">Drafto does not collect, store, or transmit any analytics, tracking, or personal data. There are no user accounts, profiling, or remote servers. All your notes, to-dos, bookmarks, and settings reside strictly on your local device.</string>
+    <string name="bs_privacy_info_network_title">Internet connection for web bookmarks</string>
+    <string name="bs_privacy_info_network_desc">Drafto connects to the internet exclusively when you save or view a bookmark, solely to download website favicons and OpenGraph preview cards (title, description, and thumbnail). No personal information or identifiers are ever transmitted.</string>
+    <string name="bs_privacy_info_backups_title">User responsibility for exports</string>
+    <string name="bs_privacy_info_backups_desc">Because Drafto has no cloud storage or remote servers, the security, storage, and sharing of any exported files (master ZIP backups, Markdown notes, or HTML bookmarks) is entirely under your custody and responsibility.</string>
+    <string name="bs_permissions_notifications">Notifications</string>
+    <string name="bs_permissions_notifications_desc">Live notes, reminders and background tasks</string>
+    <string name="bs_permissions_system_settings">System settings</string>
+    <string name="bs_permissions_system_settings_desc">Manage app permissions and alerts in Android settings</string>
+    <string name="bs_permissions_grant">Grant</string>
+    <string name="bs_permissions_granted">Granted</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 23: GITHUB UPDATE CHECKER -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Privacy-respecting update checker: user network consent dialogs, GitHub Releases check progress, update available dialog, time traveler easter egg, and connection error handling. -->
+    <!-- - Variables: -->
+    <!--   - %1$s: Available version or currently installed version. -->
+    <!--   - %2$s: Latest remote release tag on GitHub. -->
+    <!-- ========================================================================================= -->
+    <string name="about_section_updating">Updates</string>
+    <string name="about_item_check_updates">Check for updates</string>
+    <string name="about_item_check_updates_subtitle">Check for new releases on GitHub</string>
+    <string name="about_item_check_on_start">Check on startup</string>
+    <string name="about_item_check_on_start_subtitle">Verify updates when Drafto launches</string>
+    <string name="update_consent_manual_title">Check for updates?</string>
+    <string name="update_consent_manual_message">Drafto operates completely offline. Checking for updates will make a network request to GitHub (api.github.com) to verify if a new release is available.</string>
+    <string name="update_consent_manual_confirm">Connect</string>
+    <string name="update_consent_startup_title">Enable startup updates?</string>
+    <string name="update_consent_startup_message">Drafto operates offline. Enabling this setting will connect to GitHub (api.github.com) when the app launches to check for new releases.</string>
+    <string name="update_consent_startup_confirm">Enable</string>
+    <string name="update_checking_progress">Checking for updates…</string>
+    <string name="update_available_title">New version available</string>
+    <string name="update_available_message">Version %1$s is available on GitHub. Would you like to view the release?</string>
+    <string name="update_available_view">View release</string>
+    <string name="update_available_later">Later</string>
+    <string name="update_up_to_date_title">Up to date</string>
+    <string name="update_up_to_date_message">Drafto is running the latest official version (%1$s).</string>
+    <string name="update_time_traveler_title">Time machine detected! ⏳</string>
+    <string name="update_time_traveler_message">You are running version %1$s, which is newer than the latest public GitHub release (%2$s). Did you bring a time machine?</string>
+    <string name="update_error_title">Connection error</string>
+    <string name="update_error_message">Could not connect to GitHub. Please check your internet connection and try again.</string>
+    <string name="update_repo_not_found_title">Repository not found or private</string>
+    <string name="update_repo_not_found_message">The GitHub repository does not exist, is private, or has no published releases (HTTP 404). Could not check for updates.</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 24: RELEASE NOTES V1.0 -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - Official v1.0 release notes modal displayed in About Drafto covering the five core product pillars: Markdown Notes, Actionable To-dos, Web Bookmarks, Unified Collections, and Local & Secure. -->
+    <!-- ========================================================================================= -->
+    <string name="release_notes_v1_notes_title">Markdown Notes</string>
+    <string name="release_notes_v1_notes_desc">Create and format your thoughts with full Markdown styling, quick previews, and individual file exports.</string>
+    <string name="release_notes_v1_todos_title">Actionable To-dos</string>
+    <string name="release_notes_v1_todos_desc">Stay on track with nested subtasks, quick completion toggles, and live progress counters.</string>
+    <string name="release_notes_v1_bookmarks_title">Web Bookmarks</string>
+    <string name="release_notes_v1_bookmarks_desc">Save links effortlessly with automatic metadata extraction, offline privacy, and fluid Bento layouts.</string>
+    <string name="release_notes_v1_collections_title">Unified Collections</string>
+    <string name="release_notes_v1_collections_desc">Organize notes, tasks, and web bookmarks together into customizable color-coded folders.</string>
+    <string name="release_notes_v1_privacy_title">Local &amp; Secure</string>
+    <string name="release_notes_v1_privacy_desc">All data remains strictly on your device, protected by biometric lock and universal ZIP backup archives.</string>
+
+    <!-- ========================================================================================= -->
+    <!-- SECTION 25: WELCOME WALKTHROUGH BOTTOM SHEET -->
+    <!-- ========================================================================================= -->
+    <!-- Context: -->
+    <!-- - First-launch and on-demand modal walkthrough explaining the five pillars of Drafto. -->
+    <!-- ========================================================================================= -->
+    <string name="walkthrough_title">Welcome to Drafto</string>
+    <string name="walkthrough_subtitle">Discover the essential tools in your editorial workspace.</string>
+    <string name="walkthrough_step_collections_title">Collections &amp; Spaces</string>
+    <string name="walkthrough_step_collections_desc">Organize your thoughts into standalone notebooks with Nothing OS stepped flaps and instant filter pills.</string>
+    <string name="walkthrough_step_collections_badge">Primary Folder</string>
+    <string name="walkthrough_step_collections_count_demo">14 notes • 6 tasks</string>
+    <string name="walkthrough_step_notes_title">Markdown Notes</string>
+    <string name="walkthrough_step_notes_desc">Distraction-free editor with Fraunces serif typography, rapid formatting shortcuts, and sticky Live Notes.</string>
+    <string name="walkthrough_step_notes_badge">Editorial thought</string>
+    <string name="walkthrough_step_notes_quote_demo">Tactile writing inspired by printed press.</string>
+    <string name="walkthrough_step_todos_title">Productive To-dos</string>
+    <string name="walkthrough_step_todos_desc">Track subtasks, visual statuses, and an agile progress bar to maintain clear daily focus.</string>
+    <string name="walkthrough_step_todos_demo_item">Complete launch 1.0</string>
+    <string name="walkthrough_step_bookmarks_title">Smart Web Bookmarks</string>
+    <string name="walkthrough_step_bookmarks_desc">Save research links with titles, favicons, and local offline previews without internet required.</string>
+    <string name="walkthrough_step_bookmarks_demo_title">Material You Design Specs</string>
+    <string name="walkthrough_step_bookmarks_demo_domain">developer.android.com</string>
+    <string name="walkthrough_step_privacy_title">100% Offline &amp; Private</string>
+    <string name="walkthrough_step_privacy_desc">Your notes never leave your phone. Zero accounts needed, zero cloud intermediaries, zero telemetry.</string>
+    <string name="walkthrough_step_privacy_badge">Local Room database</string>
+    <string name="walkthrough_step_privacy_status">Encrypted &amp; Secure</string>
+    <string name="walkthrough_action_start">Get Started!</string>
+    <string name="walkthrough_action_skip">Skip</string>
+    <string name="walkthrough_action_next">Next</string>
+    <string name="walkthrough_action_back">Back</string>
+
+</resources>

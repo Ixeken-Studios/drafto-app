@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group
+        android:scaleX="0.068259"
+        android:scaleY="0.068259"
+        android:translateX="2"
+        android:translateY="3.195">
+        <!-- Cuerpo base en blanco sólido: cuando Compose aplica tint (onSurface), toma exactamente el color del tema -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M35.75,2.25h221c17.67,0 32,14.33 32,32v186c0,17.67 -14.33,32 -32,32h-221c-17.67,0 -32,-14.33 -32,-32v-186c0,-17.67 14.33,-32 32,-32z"/>
+        <!-- Solapa con opacidad (60%): crea el contraste tonal claro/oscuro tanto en modo claro como oscuro -->
+        <path
+            android:fillColor="#99000000"
+            android:pathData="M35.75,2.25H256.75a32,32 0 0,1 32,32V96.75H153C134.25,96.75 128.25,63 108.75,63H3.75V34.25a32,32 0 0,1 32,-32Z"/>
+        <!-- Ojo izquierdo calado/oscurecido con opacidad alta (85%) -->
+        <path
+            android:fillColor="#D9000000"
+            android:pathData="M110.75,153.75C118.689,153.75 125.25,161.286 125.25,170.75C125.25,173.137 124.829,174.431 124.203,175.114C123.601,175.771 122.7,175.976 121.395,175.876C120.081,175.775 118.519,175.382 116.692,174.995C114.89,174.613 112.875,174.25 110.75,174.25C108.625,174.25 106.61,174.613 104.808,174.995C102.981,175.382 101.419,175.775 100.105,175.876C98.8,175.976 97.8988,175.771 97.2969,175.114C96.6705,174.431 96.25,173.137 96.25,170.75C96.25,161.286 102.811,153.75 110.75,153.75Z"/>
+        <!-- Ojo derecho calado/oscurecido con opacidad alta (85%) -->
+        <path
+            android:fillColor="#D9000000"
+            android:pathData="M180.75,153.75C188.689,153.75 195.25,161.286 195.25,170.75C195.25,173.137 194.829,174.431 194.203,175.114C193.601,175.771 192.7,175.976 191.395,175.876C190.081,175.775 188.519,175.382 186.692,174.995C184.89,174.613 182.875,174.25 180.75,174.25C178.625,174.25 176.61,174.613 174.808,174.995C172.981,175.382 171.419,175.775 170.105,175.876C168.8,175.976 167.899,175.771 167.297,175.114C166.671,174.431 166.25,173.137 166.25,170.75C166.25,161.286 172.811,153.75 180.75,153.75Z"/>
+        <!-- Boca -->
+        <path
+            android:strokeColor="#D9000000"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:pathData="M138.75,185.25C144.603,189.264 147.897,189.236 153.75,185.25"/>
+    </group>
+</vector>
